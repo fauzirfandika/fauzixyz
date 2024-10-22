@@ -51,6 +51,7 @@
 }
 
 .descripcion h2{
+    text-align: center;
     font-weight: 500;
     font-size: medium;
 }
@@ -62,6 +63,7 @@
 }
 
 .descripcion h1{
+    text-align: center;
     font-weight: 400;
 }
 
@@ -154,5 +156,14 @@ a:hover{
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .descripcion .icons i{
+        font-size: 20px;
+    }
+    .descripcion .icons a{
+        margin: 0 10px 0 10px;
     }
 }
