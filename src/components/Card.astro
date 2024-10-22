@@ -1,6 +1,6 @@
 ---
 //src/components/Card.astro
-const {name, position, aboutMe, github, twitter, instagram, profileImage } = Astro.props;
+const {name, position, aboutMe, youtube, twitter, instagram, email, profileImage } = Astro.props;
 
 import '../styles/card.css';
 ---
@@ -12,11 +12,11 @@ import '../styles/card.css';
             <h2>{position}</h2>
             <p>{aboutMe}</p>
             <div class="icons">
-                <a href={github} class="hover-text" target="_blank">
+                <a href={youtube} class="hover-text" target="_blank">
                     <span class="tooltip-text" id="fade">
-                        GitHub
+                        YouTube
                     </span>
-                    <i class="bi bi-github"></i>
+                    <i class="bi bi-youtube"></i>
                 </a>
                 <a href={twitter} class="hover-text" target="_blank">
                     <span class="tooltip-text" id="fade">
